@@ -1,0 +1,8 @@
+version: '3.8'
+
+services:
+  get_stringsession:
+    container_name: get_stringsession
+    build:
+      context: .
+      dockerfile: Dockerfile
